@@ -1,0 +1,190 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "武进区交通局"
+			}
+		},
+		{
+			"path": "pages/creatTask/newTask/newTask",
+			"style": {
+				"navigationBarTitleText": "新建下发任务"
+			}
+		}
+	    ,{
+            "path" : "pages/creatTask/issueTask/issueTask",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "选择中心",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/assigneTask/assignItem/assignItem",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "待分配任务",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+		    "path" : "pages/assigneTask/assignDetail/assignDetail",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "待分配任务",
+		        "enablePullDownRefresh": false
+		    }
+		}
+        ,{
+            "path" : "pages/dealTask/notDeal/notDeal",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "未处理任务",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/homePage/homePage/homePage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "武进区交通局",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/dealTask/notDealDetail/notDealDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "任务详情",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+		    "path" : "pages/dealTask/addReconds/addReconds",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "添加执行记录",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+	
+        ,{
+            "path" : "pages/issuedEndTask/endTask/endTask",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "已结束任务",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+		    "path" : "pages/issuedEndTask/issuedTask/issuedTask",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "已下发任务",
+		        "enablePullDownRefresh": false,
+				"onReachBottomDistance":200
+		    }
+		}
+        ,{
+            "path" : "pages/issuedEndTask/issueDetail/issueDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "已完成任务",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/issuedEndTask/showUpload/showUpload",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "已上传任务",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/issuedEndTask/uploadDetail/uploadDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+		    "path" : "pages/assigneTask/complatedTask/complatedTask",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "已完成任务",
+		        "enablePullDownRefresh": false
+		    }
+		}
+        ,{
+            "path" : "pages/dealTask/taskUpload/taskUpload",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/issuedEndTask/uploadFile/uploadFile",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/assigneTask/complateB/complateB",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/dealTask/complateCList/complateCList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+		    "path" : "pages/dealTask/editReconds/editReconds",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "武进区交通局",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"usingComponents": {
+		            "ly-tree-node": "/components/ly-tree/ly-tree-node"
+		        }
+	},
+	"uniIdRouter": {
+		
+	}
+	
+}

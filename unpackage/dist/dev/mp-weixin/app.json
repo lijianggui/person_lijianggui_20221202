@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/creatTask/newTask/newTask",
+    "pages/creatTask/issueTask/issueTask",
+    "pages/assigneTask/assignItem/assignItem",
+    "pages/assigneTask/assignDetail/assignDetail",
+    "pages/dealTask/notDeal/notDeal",
+    "pages/homePage/homePage/homePage",
+    "pages/dealTask/notDealDetail/notDealDetail",
+    "pages/dealTask/addReconds/addReconds",
+    "pages/issuedEndTask/endTask/endTask",
+    "pages/issuedEndTask/issuedTask/issuedTask",
+    "pages/issuedEndTask/issueDetail/issueDetail",
+    "pages/issuedEndTask/showUpload/showUpload",
+    "pages/issuedEndTask/uploadDetail/uploadDetail",
+    "pages/assigneTask/complatedTask/complatedTask",
+    "pages/dealTask/taskUpload/taskUpload",
+    "pages/issuedEndTask/uploadFile/uploadFile",
+    "pages/assigneTask/complateB/complateB",
+    "pages/dealTask/complateCList/complateCList",
+    "pages/dealTask/editReconds/editReconds"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "武进区交通局",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {
+    "ly-tree-node": "/components/ly-tree/ly-tree-node"
+  }
+}

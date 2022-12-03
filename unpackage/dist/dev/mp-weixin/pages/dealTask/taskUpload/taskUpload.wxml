@@ -1,0 +1,1 @@
+<view class="pages"><block wx:for="{{list}}" wx:for-item="item" wx:for-index="__i0__"><view class="upload"><view data-event-opts="{{[['tap',[['jumpDetail',['$0','$1'],[[['list','',__i0__,'tid']],[['list','',__i0__,'userId']]]]]]]}}" class="uploadName" bindtap="__e">{{item.title}}</view></view></block></view>

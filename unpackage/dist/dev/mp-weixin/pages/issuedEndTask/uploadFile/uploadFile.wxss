@@ -1,0 +1,49 @@
+
+.pages{
+		margin-top: 20px;
+}
+.taskItem{
+	margin-bottom: 10px;
+}
+.taskItem{
+	display: flex;
+	justify-content: space-between;
+}
+.item1{
+	/* float: left; */
+	margin-bottom: 10px;
+	margin-left: 3%;
+	width: 40%;
+	overflow:hidden; /*超出的文本隐藏
+ */
+	text-overflow:ellipsis; /*溢出用省略号显示
+ */
+	white-space:nowrap; /*溢出不换行
+ */
+	color:blue;
+	font-size: 14px;
+}
+.item2{
+	width: 30%;
+	overflow:hidden; /*超出的文本隐藏
+ */
+	text-overflow:ellipsis; /*溢出用省略号显示
+ */
+	white-space:nowrap; /*溢出不换行
+ */
+	font-size: 14px;
+	margin-left: 10px;
+}
+.item3{
+	width: 24%;
+	overflow:hidden; /*超出的文本隐藏
+ */
+	text-overflow:ellipsis; /*溢出用省略号显示
+ */
+	white-space:nowrap; /*溢出不换行
+ */
+	font-size: 14px;
+	margin-right: 3%;
+}
+
+

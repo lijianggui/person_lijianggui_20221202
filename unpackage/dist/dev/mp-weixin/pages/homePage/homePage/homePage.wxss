@@ -1,0 +1,66 @@
+
+.uploadFile{
+	position: absolute;
+	left: 50%;
+	bottom: 30%;
+	-webkit-transform: translateX(-50%);
+	        transform: translateX(-50%);
+	color: blue;
+}
+.personInfo{
+	/* margin-top: 40px; */
+	position: absolute;
+	left: 50%;
+	bottom: 70%;
+	-webkit-transform: translateX(-50%);
+	        transform: translateX(-50%);
+	width: 90%;
+	font-size: 18px;
+}
+.show{
+	position: absolute;
+	left: 50%;
+	bottom: 50%;
+	-webkit-transform: translateX(-50%);
+	        transform: translateX(-50%);
+	-webkit-text-decoration: underline grey;
+	        text-decoration: underline grey;
+}
+.issueSuccess{
+	font-size: 18px;
+	color: blue;
+	position: absolute;
+	top:60px;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	        transform: translateX(-50%);
+}
+.baseInfo{
+	text-align: center;
+}
+.lauwen-select-input{
+	border: none !important;
+	width: 30% !important;
+	margin-left: 35%;
+	margin-bottom: 10px;
+}
+._p{
+		margin-bottom: 10px;
+}
+.content{
+		text-align: center;
+}
+.taskButton{
+		width: 90%;
+		margin-left: 5%;
+		position: fixed;
+		bottom: 6px;
+		background-color:rgb(73, 118, 201) !important;
+		height: 40px;
+		line-height: 40px;
+		color: white;
+		border-radius: 10px;
+		text-align: center;
+		z-index: 50;
+}
+

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "已上传任务",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-modal": "/uni_modules/uview-ui/components/u-modal/u-modal"
+  }
+}

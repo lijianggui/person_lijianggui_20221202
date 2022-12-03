@@ -1,0 +1,1 @@
+<view class="content"><view class="welcom">欢迎您！</view><view class="fanwei">此小程序为交通局的员工使用,如要使用 请先登录</view><button open-type="getPhoneNumber" data-event-opts="{{[['getphonenumber',[['getPhoneNumber',['$event']]]]]}}" bindgetphonenumber="__e">点击登录</button></view>

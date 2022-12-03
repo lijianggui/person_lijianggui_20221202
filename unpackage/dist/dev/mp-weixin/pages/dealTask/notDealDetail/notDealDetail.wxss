@@ -1,0 +1,35 @@
+
+.button{
+	width: 90%;
+	margin-left: 5%;
+	position: fixed;
+	bottom: 6px;
+	background-color:rgb(73, 118, 201) !important;
+	height: 40px;
+	line-height: 40px;
+	color: white;
+	border-radius: 10px;
+	text-align: center;
+	z-index: 50;
+}
+.content{
+	font-size: 16px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+.contentTitle{
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+.contentText{
+	margin-bottom: 3px;
+}
+.title{
+	font-weight: 600;
+	font-size: 16px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+

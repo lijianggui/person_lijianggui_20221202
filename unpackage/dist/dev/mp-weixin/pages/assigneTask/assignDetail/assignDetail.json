@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "待分配任务",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-modal": "/uni_modules/uview-ui/components/u-modal/u-modal",
+    "ly-tree": "/components/ly-tree/ly-tree"
+  }
+}

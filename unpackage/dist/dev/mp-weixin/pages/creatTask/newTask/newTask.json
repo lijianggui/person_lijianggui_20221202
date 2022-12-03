@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "新建下发任务",
+  "usingComponents": {
+    "u-search": "/uni_modules/uview-ui/components/u-search/u-search",
+    "ly-tree": "/components/ly-tree/ly-tree",
+    "u-modal": "/uni_modules/uview-ui/components/u-modal/u-modal",
+    "z-modal": "/components/z-modal/z-modal"
+  }
+}

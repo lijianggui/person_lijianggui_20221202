@@ -1,0 +1,54 @@
+
+.u-search__content__input{
+	font-size: 16px !important;
+}
+.u-search__content__label{
+	font-size: 16px !important;
+}
+.ly-tree-node__label{
+	font-size: 16px !important;
+}
+.u-search{
+	width: 90% !important;
+	margin-left: 5% !important;
+	position: fixed !important;
+	top: 0 !important;
+	z-index: 50 !important;
+}
+.modal-title{
+	color: black !important;
+	padding-top: 20px !important;
+}
+.content{
+	margin-left: 5%;
+	margin-top: 30px;
+}
+.creatTask{
+	width: 90%;
+/* 	margin-left: 5%; */
+	position: fixed;
+	bottom: 6px;
+	background-color:rgb(73, 118, 201) !important;
+	height: 40px;
+	line-height: 40px;
+	color: white;
+	border-radius: 10px;
+	text-align: center;
+	z-index: 50;
+	font-size: 16px;
+}
+.searchButton{
+	width: 60px;
+	background-color:rgb(73, 118, 201) ;
+	height: 30px;
+	z-index: 999;
+	position: fixed;
+	top: 8px;
+	right: 10px;
+	color: white;
+	border-radius: 20px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 12px;
+}
+

@@ -1,0 +1,13 @@
+{
+    "id": "hjb-upload",
+    "name": "upload实用上传组件",
+    "version": "1.0.3",
+    "description": "方便实用图片上传,显示,预览,以及删除功能的小插件",
+    "keywords": [
+        "upload",
+        "image",
+        "图片上传",
+        "多图上传",
+        "多图选择"
+    ]
+}
